@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="style.css">
+     <title>Insect Game</title>
+</head>
+<body>
+     <div class="screen">
+       <h1>Insect Game</h1>
+       <button class="btn" id="start-btn">Play Game</button>
+     </div>
+
+     <div class="screen">
+       <h1>Select your favourite insect!!!</h1>
+       <ul class="insects-list">
+         <li>
+           <button class="choose-insect-btn">
+             <p>Fly</p>
+             <img src="https://pngimg.com/uploads/fly/fly_PNG3946.png" alt="fly">
+           </button>
+         </li>
+         <li>
+           <button class="choose-insect-btn">
+             <p>Mosquito</p>
+             <img src="https://pngimg.com/uploads/mosquito/mosquito_PNG18175.png" alt="mosquito">
+           </button>
+         </li>
+         <li>
+           <button class="choose-insect-btn">
+             <p>Spider</p>
+             <img src="https://pngimg.com/uploads/spider/spider_PNG12.png" alt="spider">
+           </button>
+         </li>
+      </ul>
+     </div>
+
+     <div class="screen game-container" id="game-container">
+       <h3 class="time" id="time">Time: 00:00</h3>
+       <h3 class="score" id="score">Score: 0</h3>
+       <h5 class="message" id="message">
+         Beware!! You are playing an Impossible Game.
+       </h5>
+     </div>
+     <script src="script.js"> </script>
+</body>
+
+</html>
